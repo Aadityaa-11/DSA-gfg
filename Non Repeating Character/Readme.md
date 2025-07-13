@@ -4,14 +4,17 @@ Note: When you return '$' driver code will output -1.
 
 Examples:
 
-Input: s = "geeksforgeeks"
-Output: 'f'
+# Input: s = "geeksforgeeks"
+# Output: 'f'
 Explanation: In the given string, 'f' is the first character in the string which does not repeat.
-Input: s = "racecar"
-Output: 'e'
+
+# Input: s = "racecar"
+# Output: 'e'
 Explanation: In the given string, 'e' is the only character in the string which does not repeat.
-Input: s = "aabbccc"
-Output: -1
+
+# Input: s = "aabbccc"
+# Output: -1
 Explanation: All the characters in the given string are repeating.
-Constraints:
+
+# Constraints:
 1 ≤ s.size() ≤ 105

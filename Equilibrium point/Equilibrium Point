@@ -1,0 +1,32 @@
+class Solution {
+  public:
+    // Function to find equilibrium point in the array.
+    int findEquilibrium(vector<int> &arr) {
+        // code here
+        int n = arr.size();
+        vector<int> prefixsum(n , 0);
+        vector<int> suffixsum(n , 0);
+        
+
+        // finding prefix sum
+        for(int index = 1 ; index < n ; index++){
+            prefixsum[index] = prefixsum[index-1] + arr[index-1];
+            
+        }
+        
+        // finding suffix sum 
+        for(int index = n-2 ; index >= 0 ; index--){
+            suffixsum[index] = suffixsum[index+1] + arr[index+1];
+        }
+        
+        
+        // finding equilibrium 
+        for(int index=0 ; index<n ; index++){
+            if(prefixsum[index] == suffixsum[index]){
+                return index;
+            }
+        }
+     
+        return -1;
+    }
+};

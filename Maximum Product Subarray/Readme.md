@@ -27,5 +27,5 @@ Explanation: For an array with all positive elements, the result is product of a
 ```
 
 ## Constraints:
-`1 ≤ arr.size() ≤ 106`
-`-10  ≤  arr[i]  ≤  10`
+-`1 ≤ arr.size() ≤ 106`
+-`-10  ≤  arr[i]  ≤  10`

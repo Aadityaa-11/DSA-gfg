@@ -1,6 +1,7 @@
 ## Maximum Product Subarray
 
-Difficulty: MediumAccuracy: 18.09%Submissions: 465K+Points: 4
+`Difficulty:`
+
 Given an array arr[] that contains positive and negative integers (may contain 0 as well). Find the maximum product that we can get in a subarray of arr[].
 
 Note: It is guaranteed that the answer fits in a 32-bit integer.
@@ -25,6 +26,6 @@ Output: 24
 Explanation: For an array with all positive elements, the result is product of all elements.
 ```
 
-Constraints:
-1 ≤ arr.size() ≤ 106
--10  ≤  arr[i]  ≤  10
+## Constraints:
+`1 ≤ arr.size() ≤ 106`
+`-10  ≤  arr[i]  ≤  10`
